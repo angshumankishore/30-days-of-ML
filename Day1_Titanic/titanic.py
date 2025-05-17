@@ -5,17 +5,18 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score,confusion_matrix,classification_report
+import joblib
 
-df = pd.read_csv("/home/angshuman/Projects/Ml_projects/30_days_ML/Day1_Titanic/train.csv") 
+df = pd.read_csv("/home/angshuman/Projects/Ml_projects/30-days-of-ML/Day1_Titanic/train.csv") 
 #print(df.head())
 
 #getting basic info about the data 
-#print(df.info())
-#print(df.describe())
+print(df.info())
+print(df.describe())
 
 #plotting how many survived and how many didn't 
 sns.countplot(x="Survived",data=df)
-#plt.show()
+plt.show()
 
 
 #preporcessing data 
@@ -40,7 +41,7 @@ y_train = y_train[X_train.index]
 
 model = LogisticRegression()
 model.fit(X_train,y_train)
-
+joblib.dump(model,'titanic_model.pkl')
 y_pred = model.predict(X_test)
 
 #analysing the prediction 
