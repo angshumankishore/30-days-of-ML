@@ -7,7 +7,7 @@ Welcome to my **30 Days of ML Projects** challenge. From beginner to advanced, t
 
 | Day | Project | Link |
 |-----|---------|------|
-| 01 | Titanic Survival Prediction | [Day01](./Day01_Titanic) |
+| 01 | Titanic Survival Prediction | [Day01](./Day1_Titanic) |
 
 ## 📌 Tools Used
 - Python
