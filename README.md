@@ -8,7 +8,8 @@ Welcome to my **30 Days of ML Projects** challenge. From beginner to advanced, t
 | Day | Project | Link |
 |-----|---------|------|
 | 01 | Titanic Survival Prediction | [Day01](./Day1_Titanic) |
-| 02 | Iris Flower Classification| [Day02](./Day2_Iris) |
+| 02 | Iris Flower Classification  | [Day02](./Day2_Iris) |
+| 03 | House Price EDA             | [Day03](./Day3_HousePrice) |
 
 ## 📌 Tools Used
 - Python
