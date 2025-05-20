@@ -10,6 +10,7 @@ Welcome to my **30 Days of ML Projects** challenge. From beginner to advanced, t
 | 01 | Titanic Survival Prediction | [Day01](./Day1_Titanic) |
 | 02 | Iris Flower Classification  | [Day02](./Day2_Iris) |
 | 03 | House Price EDA             | [Day03](./Day3_HousePrice) |
+| 04 | Student Performance Prediction | [Day04](./Day4_Student_performance) |
 
 ## 📌 Tools Used
 - Python
