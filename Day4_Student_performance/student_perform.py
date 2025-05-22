@@ -10,14 +10,17 @@ import joblib
 df = pd.read_csv("student-por.csv",sep=';')
 print(df.head())
 
-label_encoder = {}
+#label_encoder = {}
+
+le = LabelEncoder()
 
 #encoding  the categorical features 
 for col in df.select_dtypes(include='object').columns: 
-	le = LabelEncoder()
 	df[col] = le.fit_transform(df[col])
-	label_encoder[col] = le
+	#label_encoder[col] = le
 
+#checking the encoding of the categorical features 
+print(df.head(5))
 X = df.drop(['G3'],axis=1)
 y = df['G3']
 
