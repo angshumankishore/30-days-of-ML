@@ -12,6 +12,7 @@ Welcome to my **30 Days of ML Projects** challenge. From beginner to advanced, t
 | 03 | House Price EDA             | [Day03](./Day3_HousePrice) |
 | 04 | Student Performance Prediction | [Day04](./Day4_Student_performance) |
 | 05 | Breat Cancer Prediction     | [Day05](./Day5_Breast_cancer) |
+| 06 | Wine Quality Model          | [Day06](./Day6_wine_quality) |
 
 ## 📌 Tools Used
 - Python

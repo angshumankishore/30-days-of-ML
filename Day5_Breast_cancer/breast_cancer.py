@@ -31,3 +31,4 @@ print(classification_report(y_pred,y_test))
 
 joblib.dump(model,"brest_cancer_model.pkl")
 joblib.dump(scaler,"scaler.pkl")
+
